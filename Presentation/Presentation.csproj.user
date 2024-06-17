@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="AuthFrame.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="RequestMenu.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="RequestView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="SaveRequestButton.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="AuthFrame.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="RequestMenu.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="RequestView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="SaveRequestButton.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

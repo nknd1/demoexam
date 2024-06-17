@@ -1,0 +1,58 @@
+﻿<UserControl x:Class="Presentation.RequestView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Presentation"
+             mc:Ignorable="d" 
+             d:DesignWidth="300">
+    <Grid
+        Margin="10"
+        Background="AliceBlue">
+
+        <StackPanel>
+            <TextBlock
+                Name="NumberForm"
+                Text="Номер заявки"/>
+
+            <TextBlock
+                Name="CreationDateForm"
+                Text="Дата добавления"/>
+
+            <TextBlock
+                Text="Модель авто"/>
+
+            <TextBox
+                Name="CarForm"
+                Text=""
+                TextChanged="OnChanged"/>
+
+            <TextBlock
+                Text="Описание"/>
+
+            <TextBox
+                Name="DescriptionForm"
+                Text=""
+                TextChanged="OnChanged"/>
+
+            <TextBlock
+                Name="CreatorForm"
+                Text="Создал"/>
+
+            <TextBlock
+                Name="PhoneForm"
+                Text="Номер телефона"/>
+
+            <TextBlock
+                Text="Статус заявки"/>
+
+            <TextBox
+                Name="StateForm"
+                Text=""
+                TextChanged="OnChanged"/>
+
+            <StackPanel
+                Name="Additions"/>
+        </StackPanel>
+    </Grid>
+</UserControl>
